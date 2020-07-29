@@ -68,7 +68,6 @@ func NewNode(id NodeID, q QSet, ch chan<- *Msg, ext map[SlotID]*ExtTopic) *Node 
 // Run processes incoming events for the node. It returns only when
 // its context is canceled and should be launched as a goroutine.
 func (n *Node) Run(ctx context.Context) {
-	fmt.Printf("func Run in node.go\n")
 	var delayUntil *time.Time
 	for {
 		cmd, ok := n.cmds.read(ctx)
@@ -177,7 +176,6 @@ func (n *Node) handle(msg *Msg) error {
 		return nil
 	}
 
-	// TODO 這邊看不懂
 	s, ok := n.pending[msg.I]
 	if !ok {
 		var err error
@@ -187,7 +185,7 @@ func (n *Node) handle(msg *Msg) error {
 		}
 		n.pending[msg.I] = s
 	}
-	//  TODO end
+
 	outbound, err := s.handle(msg)
 	if err != nil {
 		// delete(n.Pending, msg.I) // xxx ?
@@ -301,7 +299,6 @@ func (n *Node) Neighbors(i SlotID, num int) (NodeIDSet, error) {
 			result = result.Add(nodeID)
 		}
 	}
-
 	return result, nil
 }
 
@@ -317,7 +314,7 @@ func (n *Node) Priority(i SlotID, num int, nodeID NodeID) ([32]byte, error) {
 	m.Write(numBytes)
 	m.WriteString(string(nodeID))
 
-	switch { //這段是針對特定的節點用來調整priority用的
+	switch { //這段code是用來調整priority用的
 	case nodeID == "good-bob" || nodeID == "good-dave" || nodeID == "good-carol":
 		slices, _ := n.G(i, m.Bytes())
 		slices = increasePriority(slices)
@@ -331,7 +328,7 @@ func (n *Node) Priority(i SlotID, num int, nodeID NodeID) ([32]byte, error) {
 	//在slot 還沒有把slot i-1 externzlize 值之前，call i>1 會error
 	//G在node.go這份裡面的上面227 查g(i..
 }
-func increasePriority(input [32]byte) (result [32]byte) { // 增加priority
+func increasePriority(input [32]byte) (result [32]byte) { // added by Peja to adjust the priority
 	for i := 0; i < 32; i++ {
 		tonumber := float64(input[i])
 		tonumber = tonumber + 75
@@ -341,10 +338,11 @@ func increasePriority(input [32]byte) (result [32]byte) { // 增加priority
 		tonumber = math.Floor(tonumber)
 		result[i] = byte(int8(tonumber))
 	}
+	//log.Printf("priority=%v", result)
 	return result
 }
 
-func decreasePriority(input [32]byte) (result [32]byte) { // 降低
+func decreasePriority(input [32]byte) (result [32]byte) { // added by Peja to adjust the priority
 	for i := 0; i < 32; i++ {
 		tonumber := float64(input[i])
 		tonumber = tonumber - 75

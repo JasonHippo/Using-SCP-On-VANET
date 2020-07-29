@@ -1,0 +1,101 @@
+[alice]
+Q = {t = 5, m = [{n = "good-bob"}, {n = "good-carol"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[good-bob]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-carol"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[good-carol]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[good-dave]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[baker]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "carl"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[carl]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[elaine]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[jason]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[sidney]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[simon]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[howard]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[jennifer]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[jordan]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jennifer"}, {n = "johnson"}, {n = "john"}]}
+
+[johnson]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "jennifer"}, {n = "john"}]}
+
+[john]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "jennifer"}]}
+
+
+
+[M-elsie]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[M-fred]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[M-gwen]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[lumi]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[Bad-M-mark]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[Bad-M-larry]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[djoko]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[nadal]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[Federer]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[thiem]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[murray]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[tsitsipas]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[anderson]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[peggy]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[charlotte]
+Q = {t = 6, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}]}
+
+[RSU-A]
+Q = {t = 6, m = [{n = "M-elsie"}, {n = "M-fred"}, {n = "M-gwen"}, {n = "lumi"}, {n = "Bad-M-mark"}, {n = "Bad-M-larry"}, {n = "djoko"}, {n = "nadal"}, {n = "Federer"}, {n = "thiem"}, {n = "murray"}, {n = "tsitsipas"}, {n = "anderson"}, {n = "peggy"}, {n = "charlotte"}]}
+
+[RSU-B]
+Q = {t = 6, m = [{n = "M-elsie"}, {n = "M-fred"}, {n = "M-gwen"}, {n = "lumi"}, {n = "Bad-M-mark"}, {n = "Bad-M-larry"}, {n = "djoko"}, {n = "nadal"}, {n = "Federer"}, {n = "thiem"}, {n = "murray"}, {n = "tsitsipas"}, {n = "anderson"}, {n = "peggy"}, {n = "charlotte"}]}
+
+[RSU-C]
+Q = {t = 6, m = [{n = "M-elsie"}, {n = "M-fred"}, {n = "M-gwen"}, {n = "lumi"}, {n = "Bad-M-mark"}, {n = "Bad-M-larry"}, {n = "djoko"}, {n = "nadal"}, {n = "Federer"}, {n = "thiem"}, {n = "murray"}, {n = "tsitsipas"}, {n = "anderson"}, {n = "peggy"}, {n = "charlotte"}]}
+

@@ -9,6 +9,7 @@ import (
 	"sort"
 	"strings"
 	"unicode"
+	"log"
 )
 
 func main() {
@@ -83,7 +84,7 @@ func (ttts TTTSet) Add(ttt TTT) TTTSet {
 }
 
 // Union produces a TTTSet containing all the members of both sets.
-func (ttts TTTSet) Union(other TTTSet) TTTSet {
+func (ttts TTTSet) Union(other TTTSet) TTTSet { //沒跑到這
 	if len(ttts) == 0 {
 		return other
 	}

@@ -1,0 +1,189 @@
+[alice]
+Q = {t = 4, m = [{n = "good-bob"}, {n = "good-carol"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[good-bob]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-carol"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[good-carol]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[good-dave]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[baker]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "carl"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[carl]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[elaine]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[jason]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[sidney]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[simon]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[howard]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[jennifer]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[jordan]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jennifer"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[johnson]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "jennifer"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[john]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "jennifer"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coalice]
+Q = {t = 4, m = [{n = "good-bob"}, {n = "good-carol"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "cojohn"}]}
+
+[cogood-bob]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-carol"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cojohn"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cogood-carol]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-dave"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cojohn"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cogood-dave]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "carl"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cojohn"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cobaker]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "carl"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cojohn"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cocarl]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cojohn"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coelaine]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "cojohn"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cojason]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojohn"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cosidney]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cojohn"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cosimon]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cojohn"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cohoward]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cojohn"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cojennifer]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojohn"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cojordan]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jennifer"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojohn"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cojohnson]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "jennifer"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohn"}, {n = "cojohn"} , {n = "coalice"}]}
+
+[cojohn]
+Q = {t = 4, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "jennifer"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "john"} , {n = "coalice"}]}
+
+[M-elsie]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[M-fred]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[M-gwen]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[lumi]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[Bad-M-mark]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[Bad-M-larry]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[djoko]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[nadal]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[Federer]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[thiem]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[murray]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[tsitsipas]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[anderson]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[peggy]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[charlotte]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coM-elsie]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coM-fred]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coM-gwen]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[columi]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coBad-M-mark]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coBad-M-larry]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[codjoko]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[conadal]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coFederer]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cothiem]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[comurray]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cotsitsipas]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[coanderson]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[copeggy]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[cocharlotte]
+Q = {t = 5, m = [{n = "alice"}, {n = "good-bob"}, {n = "good-carol"}, {n = "baker"}, {n = "good-dave"}, {n = "elaine"}, {n = "jason"}, {n = "sidney"}, {n = "simon"}, {n = "jennifer"}, {n = "howard"}, {n = "carl"}, {n = "jordan"}, {n = "johnson"}, {n = "john"}, {n = "cogood-bob"}, {n = "cogood-carol"}, {n = "cogood-dave"}, {n = "cobaker"}, {n = "cocarl"}, {n = "coelaine"}, {n = "cojason"}, {n = "cosidney"}, {n = "cosimon"}, {n = "cojennifer"}, {n = "cohoward"}, {n = "cojordan"}, {n = "cojohnson"}, {n = "cojohn"}, {n = "coalice"}]}
+
+[RSU-A]
+Q = {t = 5, m = [{n = "M-elsie"}, {n = "M-fred"}, {n = "M-gwen"}, {n = "lumi"}, {n = "Bad-M-mark"}, {n = "Bad-M-larry"}, {n = "djoko"}, {n = "nadal"}, {n = "Federer"}, {n = "thiem"}, {n = "murray"}, {n = "tsitsipas"}, {n = "anderson"}, {n = "peggy"}, {n = "charlotte"}, {n = "coM-elsie"}, {n = "coM-fred"}, {n = "coM-gwen"}, {n = "columi"}, {n = "coBad-M-mark"}, {n = "coBad-M-larry"}, {n = "codjoko"}, {n = "conadal"}, {n = "coFederer"}, {n = "cothiem"}, {n = "comurray"}, {n = "cotsitsipas"}, {n = "coanderson"}, {n = "copeggy"}, {n = "cocharlotte"}]}
+
+[RSU-B]
+Q = {t = 5, m = [{n = "M-elsie"}, {n = "M-fred"}, {n = "M-gwen"}, {n = "lumi"}, {n = "Bad-M-mark"}, {n = "Bad-M-larry"}, {n = "djoko"}, {n = "nadal"}, {n = "Federer"}, {n = "thiem"}, {n = "murray"}, {n = "tsitsipas"}, {n = "anderson"}, {n = "peggy"}, {n = "charlotte"}, {n = "coM-elsie"}, {n = "coM-fred"}, {n = "coM-gwen"}, {n = "columi"}, {n = "coBad-M-mark"}, {n = "coBad-M-larry"}, {n = "codjoko"}, {n = "conadal"}, {n = "coFederer"}, {n = "cothiem"}, {n = "comurray"}, {n = "cotsitsipas"}, {n = "coanderson"}, {n = "copeggy"}, {n = "cocharlotte"}]}
+
+[RSU-C]
+Q = {t = 5, m = [{n = "M-elsie"}, {n = "M-fred"}, {n = "M-gwen"}, {n = "lumi"}, {n = "Bad-M-mark"}, {n = "Bad-M-larry"}, {n = "djoko"}, {n = "nadal"}, {n = "Federer"}, {n = "thiem"}, {n = "murray"}, {n = "tsitsipas"}, {n = "anderson"}, {n = "peggy"}, {n = "charlotte"}, {n = "coM-elsie"}, {n = "coM-fred"}, {n = "coM-gwen"}, {n = "columi"}, {n = "coBad-M-mark"}, {n = "coBad-M-larry"}, {n = "codjoko"}, {n = "conadal"}, {n = "coFederer"}, {n = "cothiem"}, {n = "comurray"}, {n = "cotsitsipas"}, {n = "coanderson"}, {n = "copeggy"}, {n = "cocharlotte"}]}
+

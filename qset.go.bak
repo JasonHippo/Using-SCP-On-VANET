@@ -109,11 +109,11 @@ func (q QSet) weight(id NodeID) (float64, bool) {
 	case num == denom:
 		return 1.0, true
 
-		case id == "good-bob" || id == "good-dave" || id == "good-carol": //這裡是測試調整weight的
-			return (float64(num) / float64(denom) + 0.3), false
+		/*case id == "good-bob" || id == "good-dave" || id == "good-carol": //這裡是測試調整weight的
+			return (float64(num) / float64(denom) +0.3), false
 
 		case id == "Bad-M-Larry" || id == "lumi" || id == "Bad-M-mark" || id == "alice" || id == "carl" || id == "M-fred":
-			return (float64(num) / float64(denom) - 0.3), false
+			return (float64(num) / float64(denom) -0.3), false*/
 	}
 	return float64(num) / float64(denom), false
 

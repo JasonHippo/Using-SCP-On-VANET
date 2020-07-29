@@ -36,6 +36,8 @@ func (s *Slot) findBlockingSet(pred predicate) NodeIDSet {
 	return res
 }
 
+//var Peja ="Federer" // for testing
+
 type NodeQuorum struct { 
 	NodeName   NodeID
 	NodeQuorum NodeIDSet
@@ -59,9 +61,11 @@ func (s *Slot) findQuorum(pred predicate) NodeIDSet {
 		}
 		arraynumber = arraynumber + 1
 	}
+
 	//這裡的res 會印出節點的quorum，不過會變
 	//s是slot，V是*Node, Q是Qset，qset會包含 int選幾個跟member有哪些成員
 	//s.M 是當下收到的訊息 會印出很多人不同傳的訊息
+
 	return res
 }
 

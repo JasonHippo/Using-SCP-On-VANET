@@ -96,7 +96,7 @@ func (s *Slot) handle(msg *Msg) (resp *Msg, err error) {
 		return nil, nil
 	}
 
-	err = msg.valid() // TODO 這邊是確認訊息是否合法？
+	err = msg.valid()
 	if err != nil {
 		return nil, err
 	}
@@ -107,7 +107,7 @@ func (s *Slot) handle(msg *Msg) (resp *Msg, err error) {
 				if s.sent != nil && reflect.DeepEqual(resp.T, s.sent.T) { //如果之前送的訊息跟要回的訊息是一樣的
 					resp = nil //那就不回
 				} else {
-					s.sent = resp // TODO 為甚麼要assign過去
+					s.sent = resp //
 				}
 			}
 			if resp != nil {
@@ -167,6 +167,7 @@ func (s *Slot) doNomPhase(msg *Msg) {
 			log.Printf("2.*** Node %s 找到maxpriority sender， 提名topic, set X=", s.V.ID)
 		case *NomPrepTopic:
 			f(&topic.NomTopic)
+
 		}
 	}
 
@@ -243,6 +244,7 @@ func (s *Slot) doPrepPhase() {
 			// Some ballot is confirmed prepared, exit NOMINATE phase.
 			log.Printf("6.*** node %s 看到quorum accept 同樣的ballot，confirm ballot, 設定最高跟最低的ballot", s.V.ID)
 			s.Ph = PhPrep
+			//time.Sleep(time.Duration(300) * time.Millisecond)
 			//and a quorum all voting the same way means node can now accept that B=<n,x> is prepared
 			s.cancelRounds()
 		}
@@ -267,6 +269,7 @@ func (s *Slot) doPrepPhase() {
 		// Accept commit(<n, s.B.X>).
 		s.Ph = PhCommit
 		log.Printf("7.*** Node %s 看到quorum confirm 同樣的 ballot. 可以commit ballot，set Commit=", s.V.ID) //added by Peja
+		//time.Sleep(time.Duration(300) * time.Millisecond)
 	}
 }
 
@@ -293,6 +296,7 @@ func (s *Slot) doCommitPhase() {
 		s.C.N = cn
 		s.H.N = hn
 		log.Printf("8. ***Node %s 看到quorum 都commit ballot，可以externalize,set EXT C= ", s.V.ID) // added by Peja
+		//time.Sleep(time.Duration(300) * time.Millisecond)
 		//對於節點來說，如果可以externalized的話，走到這裡
 		s.cancelUpd()
 
@@ -608,6 +612,7 @@ func (s *Slot) findMaxPriPeer(r int) (NodeID, error) {
 			maxPriority = priority //priority 計算出來是32ytes
 			result = neighbor
 			//因為一直在比較，所以這裡對節點來說，是目前最高 但是還不是最高最高的 要跑完才是 所以看return值
+
 		}
 	}
 	//log.Printf("**1202 findmaxpripeer node=%s PriorityResult=%s", s.V.ID, result)
@@ -643,6 +648,7 @@ func (s *Slot) updateYZ() {
 	})
 	if len(nodeIDs) > 0 { //nodeIDs是判斷accept的quorum那裡有沒有東西
 		log.Printf("3.*** Node %s accept the nominate value,set X to Y=", s.V.ID)
+		//time.Sleep(time.Duration(300) * time.Millisecond)
 		s.Y = s.Y.Union(promote)
 	}
 	s.X = s.X.Minus(s.Y) //

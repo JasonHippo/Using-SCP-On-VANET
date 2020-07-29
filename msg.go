@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math"
 	"sync/atomic"
+	
 )
 
 // Msg is an SCP protocol message.
@@ -106,6 +107,7 @@ func (e *Msg) bN() int {
 
 // Returns the set of values that e votes or accepts as nominated.
 func (e *Msg) votesOrAcceptsNominatedSet() ValueSet {
+
 	result := e.acceptsNominatedSet()
 	f := func(topic *NomTopic) {
 		result = result.Union(topic.X)
@@ -270,5 +272,5 @@ func (e *Msg) acceptsCommit(v Value, min, max int) (bool, int, int) {
 
 // String produces a readable representation of a message.
 func (e *Msg) String() string {
-	return fmt.Sprintf("(C=%d V=%s I=%d: %s)", e.C, e.V, e.I, e.T)
+	return fmt.Sprintf("(C=%d V=%s I=%d: %s )", e.C, e.V, e.I, e.T)
 }

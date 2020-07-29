@@ -1,6 +1,8 @@
 package scp
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Topic is the abstract type of the payload of an SCP message
 // (conveyed in an envelope, see type Msg). The concrete type is one
@@ -147,6 +149,8 @@ type ExtTopic struct {
 	HN int
 }
 
+var ExtResult Ballot //用來在最後輸出 方便直接看結果的
+
 func (et *ExtTopic) Less(other Topic) bool {
 	if other, ok := other.(*ExtTopic); ok {
 		return et.HN < other.HN
@@ -155,5 +159,6 @@ func (et *ExtTopic) Less(other Topic) bool {
 }
 
 func (et *ExtTopic) String() string {
+	ExtResult = et.C // 用在main裡面print結果
 	return fmt.Sprintf("EXT C=%s HN=%d", et.C, et.HN)
 }
